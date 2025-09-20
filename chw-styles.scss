@@ -1,6 +1,6 @@
 /* Global font size increases */
 body.theme_boost-union {
-    font-size: 18px !important;
+    font-size: 2em !important;
 }
 
 body.theme_boost-union,
@@ -8,7 +8,7 @@ body.theme_boost-union .container,
 body.theme_boost-union .container-fluid,
 body.theme_boost-union #page,
 body.theme_boost-union .main-inner {
-    font-size: 1.1rem !important;
+    font-size: 1.5rem !important;
 }
 
 /* Remove width limitations */
@@ -30,7 +30,7 @@ body.theme_boost-union h4 { font-size: 1.3rem !important; }
 /* Navigation */
 body.theme_boost-union .navbar,
 body.theme_boost-union .navbar-nav .nav-link {
-    font-size: 1.1rem !important;
+    font-size: 1.5rem !important;
 }
 
 body.theme_boost-union .navbar-nav .nav-link {
@@ -49,4 +49,5 @@ body.theme_boost-union .navbar-nav .nav-link {
     body.theme_boost-union {
         font-size: 19px !important;
     }
+
 }
