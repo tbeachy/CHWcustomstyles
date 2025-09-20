@@ -1,0 +1,52 @@
+/* Global font size increases */
+body.theme_boost-union {
+    font-size: 18px !important;
+}
+
+body.theme_boost-union,
+body.theme_boost-union .container,
+body.theme_boost-union .container-fluid,
+body.theme_boost-union #page,
+body.theme_boost-union .main-inner {
+    font-size: 1.1rem !important;
+}
+
+/* Remove width limitations */
+body.limitedwidth .container,
+body.limitedwidth .container-fluid,
+body.limitedwidth #page,
+body.limitedwidth .main-inner,
+body.limitedwidth #region-main {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* Headings */
+body.theme_boost-union h1 { font-size: 2.2rem !important; }
+body.theme_boost-union h2 { font-size: 1.9rem !important; }
+body.theme_boost-union h3 { font-size: 1.6rem !important; }
+body.theme_boost-union h4 { font-size: 1.3rem !important; }
+
+/* Navigation */
+body.theme_boost-union .navbar,
+body.theme_boost-union .navbar-nav .nav-link {
+    font-size: 1.1rem !important;
+}
+
+body.theme_boost-union .navbar-nav .nav-link {
+    padding: 10px 15px !important;
+    font-weight: 500 !important;
+}
+
+/* Responsive full-width layout */
+@media (max-width: 767px) {
+    body.theme_boost-union {
+        font-size: 16px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    body.theme_boost-union {
+        font-size: 19px !important;
+    }
+}
